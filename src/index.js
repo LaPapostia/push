@@ -4,7 +4,7 @@ const colors= require('colors');
 const path=require('path');
 
 //settings
-app.set('port',3000);
+app.set('port',8080);
 //app.engine('html',require('ejs').renderFile); --- Renderizar archivos HTML a EJS
 app.set('views',path.join(__dirname,'views'))
 app.set('view engine','ejs');

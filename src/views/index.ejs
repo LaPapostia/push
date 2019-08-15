@@ -1,465 +1,682 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Profe te queremos :3</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Profe te queremos :3</title>
+</head>
+
+<body>
+  <div class="contenedorGlobal">
+
 
     <% include partials/head.html%>
-</head>
-<style>
-  p {
-    font-size: 20px;
-  }
-</style>
-<body>
     <% include partials/navigation.html%>
-    
+
     <style>
-    body{
-       /*font-family: 'Spici'
-       font-family: 'Indie Flower', cursive;
-         */
-         font-family: 'Crimson Pro', serif;
-    }
+      body {
+        /*font-family: 'Spici'
+      font-family: 'Notable', sans-serif;*/
+        font-family: 'Crimson Pro', serif;
+        font-size: 25px;
+      }
     </style>
 
 
-<div id="dropDownSelect1"></div>
-      <!-- section one -->
-      <div class="container-fluid" id="inicio">
-        <div class="row bg-white text-black p-5 text-center">
+    <!-- section one -->
+    <div class="contenedor">
+      <div class="row bg-white text-black p-5 text-center">
+
+        <div class="col-sm-6">
+          <br><br><br><br><br>
+          <h1>This is our Portfolio</h1>
+
+          <p>
+            <span> We make this portfolio for you :3 </span>
+          </p>
+        </div>
+
+        <div class="col-sm-6">
+          <img src="img/inicio.jpg" width="400" height="400" class=" w-10s animated rollIn" id="inicio">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- section jaime -->
+    <div class="contenedor">
+      <div class="row  text-white p-5 text-center">
+        <div class="col-sm-6">
+          <img src="img/jaime.jpg" width="400" height="400" class="w-10s animated rollIn" id="jaime">
+        </div>
+        <div class="col-sm-6">
+          <br><br><br><br><br><br><br><br>
+          <h1 class="w-10s animated bounceInRight">Jaime Vanegas</h1>
+          <button class="btn" onclick="Mostrar_OcultarJaime()"><i class="fas fa-caret-down"></i></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- section jaider -->
+    <div class="contenedor">
+      <div class="row  text-black p-5 text-center">
+        <div class="col-sm-6">
+          <img src="img/jaider.jpg" width="400" height="400" class=" w-10s animated rollIn" id="jaider">
+        </div>
+        <div class="col-sm-6">
+          <br><br><br><br><br><br><br><br>
+          <h1 class="w-10s animated bounceInRight">Jaider Atehortua</h1>
+          <button class="btn" onclick="Mostrar_OcultarJaider()"><i class="fas fa-caret-down"></i></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Beatles-->
+    <div class="contenedor" id="introJaider">
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">Ended Dream</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=white>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            <font size=5 color=black>Thought:</font><br>
+            The content Of cognition, the main thing You are thinking about.
+            <br><br>
+            <font size=5 color=black>Led:</font> <br>
+            Preside over.
+            <br><br>
+            <font size=5 color=black>Field:</font><br>
+            A piece Of Land cleared Of trees and usually enclosed.
+            <br><br>
+            <font size=5 color=black>Walrus:</font> <br>
+            Either Of tel largo northern marine mammals having ivory tusks and tough hide over thick blubber.
+            <br><br>
+            <font size=5 color=black>Shouted:</font> <br>
+            Talk in a loud voice.
+            <br><br>
+            <font size=10 color=white>Summary</font> <br>
+            <br>
+            The beatles were considered as they best band around the world, but all they followed their own interest,
+            their fans were always with hope that they will play together again. <br>
+            One day, all the fans lost that hope when Jhon Lenon died, because Mark Chapman shotted him, then he died in
+            the hospital and the band has never play together again.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- section maya -->
+    <div class="contenedor">
+      <div class="row  text-white p-5 text-center">
+        <div class="col-sm-6">
+          <img src="img/maya.jpg" width="400" height="400" class=" w-10s animated rollIn" id="maya">
+        </div>
+        <div class="col-sm-6">
+          <br><br><br><br><br><br><br><br>
+          <h1 class="w-10s animated bounceInRight">Mayerlin Gaviria</h1>
+          <button class="btn" onclick="Mostrar_OcultarMaya()"><i class="fas fa-caret-down"></i></i></button>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Chapter introduction-->
+    <div class="contenedor" id="introMaya">
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">Introduction</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=white>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            <font size=5 color=black>Large:</font><br>
+            Of considerable or relatively great size, extent, or capacity.
+            <br><br>
+
+            <font size=5 color=black>Often:</font><br>
+            frequently; many times.
+            <br><br>
+
+            <font size=5 color=black>Great:</font><br>
+            of an extent, amount, or intensity considerably above average.
+            <br><br>
+
+            <font size=5 color=black>Took:</font><br>
+            a past of take.
+            <br><br>
+
+
+            <font size=10 color=white>Summary</font> <br>
+            He talks about how there are a variety of people in London, about what you can think and read about this
+            city, and a little about how the writer, <br>
+            Vicky Shipton, does not belong to London, but loves this city. <br>
+
+
+
+            <font size=10 color=white>Activities</font> <br>
+            <font size=5 color=black>1. What is the tallest building in London?</font><br>
+            - b) an office building.<br><br>
+            <font size=5 color=black>2. What destroyed most of the city in 1666?</font><br>
+            - a) a fire.<br><br>
+            <font size=5 color=black>3. How many bridges are there across the River Thames?</font><br>
+            - c) thirty-four<br><br>
+            <font size=5 color=black>4. Who - or What - is Big Ben?</font><br>
+            - a) a clock<br><br>
+            <font size=5 color=black>5. Which Roman first came to the south of England?</font><br>
+            - b) Julius Caesar<br><br>
+            <font size=5 color=black>6. Who said ‘When a man is tired of london, he is tired of life’?</font><br>
+            - a) Samuel Johnson<br><br>
+            <font size=5 color=black>7. What is Harrods?</font><br>
+            - c) a shop<br><br>
+            <font size=5 color=black>8. Which king lost his head in 1649?</font><br>
+            - a) Charles I<br>
+          </p>
+        </div>
+      </div>
+
+      <!--Chapter one-->
+
+      <div class="row  text-white p-5 text-left ">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">A Great City</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=black>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            <font size=5 color=black>South east:</font>
+            the south-eastern part of a country, region, or town.
+            <br><br>
+
+            <font size=5 color=black>Square:</font>
+            an open, typically four-sided, area surrounded by buildings in a village, town, or city.
+            <br><br>
+
+            <font size=5 color=black>Tallest:</font>
+            having a relatively great height; of more than average stature.
+            <br><br>
+
+            <font size=5 color=black>Across:</font>
+            from one side to the other of (a place, area, etc.).
+            <br><br>
+
+            <font size=5 color=black>Lost: </font>
+            past and past participle of lose.
+            <br><br>
+
+            <font size=10 color=white>Summary</font> <br>
+            He tells us a little about his extension and asks some questions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- section juanes -->
+    <div class="contenedor">
+      <div class="row  text-black p-5 text-center">
+        <div class="col-sm-6">
+          <img src="img/juaneskappa.jpg" width="400" height="400" class=" w-10s animated rollIn" id="juanes">
+        </div>
+        <div class="col-sm-6">
+          <br><br><br><br><br><br><br><br>
+          <h1 class="w-10s animated bounceInRight">Juanes Sepúlveda</h1>
+          <button class="btn" onclick="Mostrar_OcultarJuanes()"><i class="fas fa-caret-down"></i></i></button>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Chapter introduction-->
+    <div class="contenedor" id="introJuanes">
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">Introduction</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=white>Glossary</font>
+          <p style="color:white">
+            <br><br>
+
+
+            <font size=5 color=black>Often:</font><br>
+            frequently; many times.
+            <br><br>
+
+
+
+
+            <font size=10 color=white>Summary</font> <br>
+            He talks about how there are a variety of people in London, about what you can think and read about this
+            city, and a little about how the writer, <br>
+            Vicky Shipton, does not belong to London, but loves this city. <br>
+
+
+
+            <font size=10 color=white>Activities</font> <br>
+            <font size=5 color=black>1. What is the tallest building in London?</font><br>
+            - b) an office building.<br><br>
+            <font size=5 color=black>2. What destroyed most of the city in 1666?</font><br>
+            - a) a fire.<br><br>
+            <font size=5 color=black>3. How many bridges are there across the River Thames?</font><br>
+            - c) thirty-four<br><br>
+            <font size=5 color=black>4. Who - or What - is Big Ben?</font><br>
+            - a) a clock<br><br>
+            <font size=5 color=black>5. Which Roman first came to the south of England?</font><br>
+            - b) Julius Caesar<br><br>
+            <font size=5 color=black>6. Who said ‘When a man is tired of london, he is tired of life’?</font><br>
+            - a) Samuel Johnson<br><br>
+            <font size=5 color=black>7. What is Harrods?</font><br>
+            - c) a shop<br><br>
+            <font size=5 color=black>8. Which king lost his head in 1649?</font><br>
+            - a) Charles I<br>
+          </p>
+        </div>
+      </div>
+
+      <!--Chapter one-->
+
+      <div class="row  text-white p-5 text-left ">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">A Great City</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=black>Glossary</font>
+          <p style="color:white">
+            <br><br>
             
-          <div class="col-sm-6">
-              <br><br><br><br><br><br><br><br>
-                <h1>Este es nuestro portafolio</h1>
-                
-                <p>
-                  <span> Hicimos un portafolios conjunto para ayudarnos en el tiempo :3 </span>
-                </p>
-              </div>
-          
-          <div class="col-sm-6">
-            <img src="img/inicio.jpg"  width="400" height="400" class=" w-10s animated rollIn" id="inicio">
-          </div>
-          
+
+            <font size=5 color=black>Square:</font>
+            an open, typically four-sided, area surrounded by buildings in a village, town, or city.
+            <br><br>
+
+            
+
+            <font size=5 color=black>Across:</font>
+            from one side to the other of (a place, area, etc.).
+            <br><br>
+
+            
+            <font size=10 color=white>Summary</font> <br>
+            He tells us a little about his extension and asks some questions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- section ivanna -->
+    <div class="contenedor">
+      <div class="row  text-white p-5 text-center">
+        <div class="col-sm-6">
+          <img src="img/ivanna.jpg" width="300" height="300" class=" w-10s animated rollIn" id="ivanna">
+        </div>
+        <div class="col-sm-6 ">
+          <br><br><br><br><br><br><br><br>
+          <h1 class=" w-10s animated bounceInRight">Ivanna Gutierrez</h1>
+          <button class="btn" onclick="Mostrar_OcultarIvanna()"><i class="fas fa-caret-down"></i></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!--Chapter introduction-->
+    <div class="contenedor" id="introIvanna">
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">Introduction</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=white>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            <font size=5 color=black>Building: (noun)</font>
+            <br>
+            1.
+            <br>
+            a structure with a roof and walls, such as a house or factory. <br>
+            sinónimos: structure, construction, edifice, erection, pile. <br>
+            <br>
+            2.
+            <br>
+            the action or trade of constructing something. <br>
+            "the building of motorways" <br>
+            sinónimos: construction, erection, putting up, raising, establishment, fabrication, production, assembly
+            <br>
+
+            <br><br>
+            <font size=5 color=black>Largest: (adjective)</font> <br>
+            superlative adjective: largest <br>
+            <br>
+            1.
+            <br>
+            of considerable or relatively great size, extent, or capacity. <br>
+            "add a large clove of garlic" <br>
+            sinónimos: big, great, huge, of considerable size, sizeable, substantial, immense, enormous, colossal,
+            massive, mammoth, vast, cosmic, goodly, prodigious, tremendous, gigantic, giant, monumental, stupendous,
+            gargantuan, elephantine, titanic, mountainous, monstrous. <br>
+
+            <br><br>
+            <font size=5 color=black>Great: (adjective)</font>
+            <br>
+            1.
+            <br>
+            of an extent, amount, or intensity considerably above average. <br>
+            "the article was of great interest" <br>
+            sinónimos: considerable, substantial, pronounced, sizeable, significant, appreciable, serious, exceptional,
+            inordinate, extraordinary, special. <br>
+
+            <br><br>
+            <font size=5 color=black>Often: (adverb)</font> <br>
+            frequently; many times. <br>
+            "he often goes for long walks by himself" <br>
+            sinónimos: frequently, many times, many a time, on many/numerous occasions, a lot, in many cases/instances,
+            repeatedly, again and again, time and again, time and time again, time after time, over and over, over and
+            over again, day in, day out, week in, week out, all the time, regularly, recurrently, continually, usually,
+            habitually, commonly, generally, ordinarily, as often as not. <br>
+
+            <br><br>
+            <font size=10 color=white>Summary</font> <br>
+            <br>
+            Usually the people that lives in London are from other places, people say it because in this city you can
+            hear
+            more than 250 languages on the street. <br>
+            when somebody think of london, thinks in of a red bus, the river Thames or their old buildings.
+          </p>
         </div>
       </div>
 
-<div id="dropDownSelect1"></div>
-      <!-- section jaime -->
-      <div class="container-fluid" id="jaime">
-        <div class="row  text-white p-5 text-center">
-          <div class="col-sm-6">
-            <img src="img/earth2.png"  width="400" height="400" class=" w-10s animated rollIn">
-          </div>
-          <div class="col-sm-6">
-              <br><br><br><br><br><br><br><br>
-            <h1>Jaime Vanegas</h1>
-          </div>
+
+      <!--Chapter one-->
+
+      <div class="row  text-white p-5 text-left ">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">A Great City</h1>
+        </div>
+        <div class="col-sm-6 w-10s animated bounceInRight">
+          <font size=10 color=black>Glossary</font>
+          <p style="color:white">
+            <br><br>
+            <font size=5 color=black>Square: (noun)</font>
+            <br>
+            1. <br>
+            a plane figure with four equal straight sides and four right angles. <br>
+            "a grid of ruled squares" <br>
+            2. <br>
+            an open, typically four-sided, area surrounded by buildings in a village, town, or city. <br>
+            <br>
+            <br>
+            <font size=5 color=black> South-east:(noun)</font><br>
+            1. <br>
+            the direction towards the point of the horizon midway between south and east, or the point on the horizon
+            itself. <br>
+            2. <br>
+            the south-eastern part of a country, region, or town. <br>
+            <br>
+            <br>
+            <font size=10 color=black>Summary</font> <br> <br>
+            London, is one of the most wonderful cities around the world, and the biggest of Europe, with an interesting
+            story under its existence.
         </div>
       </div>
 
-      <!-- section jaider -->
-      <div class="container-fluid" id="jaider">
-        <div class="row  text-black p-5 text-center">
-          <div class="col-sm-6">
-            <img src="img/jaider.jpg"  width="400" height="400" class=" w-10s animated rollIn" id="jaider">
-          </div>
-          <div class="col-sm-6">
-              <br><br><br><br><br><br><br><br>
-            <h1>Jaider Atehortua</h1>
-          </div>
+
+
+      <!--Chapter two-->
+
+      <div class="row  text-white p-5 text-left">
+        <div class="col-sm-6 w-10s animated bounceInLeft">
+          <h1 style="color: black">The Thames</h1>
+        </div>
+        <div class="col-sm-6  w-10s animated bounceInRight" class="">
+          <font size=10 color=black>Glossary</font> <br> <br>
+          <p style="color: white">
+            <font size=5 color=black>Through: (preposition & adverb)</font> <br>
+            1. <br>
+            moving in one side and out of the other side of (an opening, channel, or location). <br>
+            "stepping boldly through the doorway" <br>
+            2. <br>
+            continuing in time towards completion of (a process or period). <br>
+            "the goal came midway through the second half". <br>
+
+
+            <font size=5 color=black> West: (noun)</font> <br>
+            1. <br>
+            the direction towards the point of the horizon where the sun sets at the equinoxes, on the left-hand side of
+            a
+            person facing north, or the part of the horizon lying in this direction. <br>
+            "the evening sun glowed from the west" <br>
+            <br>
+            <br>
+            <font size=5 color=black>East: (noun) </font>
+            1. <br>
+            the direction towards the point of the horizon where the sun rises at the equinoxes, on the right-hand side
+            of
+            a person facing north, or the point on the horizon itself. <br>
+            "a gale was blowing from the east" <br>
+            2. <br>
+            the eastern part of the world or of a specified country, region, or town. <br>
+            "a factory in the east of the city" <br>
+
+
+            <font size=5 color=black>River: (noun)</font> <br>
+            a large natural stream of water flowing in a channel to the sea, a lake, or another river. <br>
+            "the River Danube" <br>
+            <br>
+            <br>
+            <font size=5 color=black>Road: (noun) </font> <br>
+            1. <br>
+            a wide way leading from one place to another, especially one with a specially prepared surface which
+            vehicles
+            can use. <br>
+            "a country road" <br>
+            <br>
+            <br>
+            <font size=5 color=black>Brought: </font><br>
+            Past and past participle of bring. <br>
+            <font size=5 color=black>Round: </font> <br>
+            1. <br>
+            having every part of the surface or circumference equidistant from the center <br>
+
+            <font size=5 color=black>Wood: </font> <br>
+            Wood is a porous and fibrous structural tissue found in the stems and roots of trees and other woody plants.
+            <br>
+            <br>
+            <font size=5 color=black>Busy: (adjective) </font><br>
+            1. <br>
+            having a great deal to do. <br>
+            "he had been too busy to enjoy himself" <br>
+            2. <br>
+            excessively detailed or decorated. <br>
+            "the lavish set designs are a little too busy" <br>
+
+
+            <font size=5 color=black>Bridge: (noun) </font> <br>
+            1. <br>
+            A structure carrying a pathway or roadway over a depression or obstacle (such as a river) <br>
+
+            <font size=5 color=black>Stone: </font> <br>
+            Any of various units of weight especially; an official British unit equal to 14 pounds (6.3 kilograms)
+            <br>
+            <br>
+            <font size=5 color=black>Stood: </font> <br>
+            Past and past participle of stand.
+            <br>
+            <br>
+            <font size=5 color=black>Sold: </font><br>
+            Past and past participle of sell.
+            <br>
+            <br>
+            <font size=5 color=black>Tower: (noun) </font> <br>
+            1. <br>
+            a tall, narrow building, either free-standing or forming part of a building such as a church or castle.
+            <br>
+            <br>
+            <font size=5 color=black>Across: (preposition & adverb) </font> <br>
+            1. <br>
+            from one side to the other of (a place, area, etc.). <br>
+            "I ran across the street"
+            <br>
+            <br>
+            <font size=5 color=black>South: (noun) </font><br>
+            1. <br>
+            the direction towards the point of the horizon 90° clockwise from east, or the point on the horizon
+            itself."the breeze came from the south" <br>
+            2. <br>
+            the southern part of the world or of a specified country, region, or town.
+            <br>
+            <br>
+            <font size=5 color=black>Near: (adverb) </font> <br>
+            1. <br>
+            at or to a short distance away; nearby. <br>
+            "a bomb exploded somewhere near"
+            <br>
+            <br>
+            <font size=5 color=black>Walkways: (noun) </font> <br>
+            a passage or path for walking along, especially a raised passageway connecting different sections of a
+            building or a wide path in a park or garden.
+            <br>
+            <br>
+            <font size=5 color=black>Helped: (verb) </font><br>
+            Past tense: helped; past participle: helped <br>
+            1. <br>
+            make it easier or possible for (someone) to do something by offering them one's services or resources. <br>
+            "they helped her with domestic chores"
+            <br>
+            <br>
+            <font size=5 color=black>Threw: </font><br>
+            Past of throw. <br>
+            <br>
+            <font size=10 color=white>Summary </font> <br> <br>
+            Thames is the river crossing from West to East, this river benefits to London and it returns to the capital
+            because in the past this river was used to transport merchandise and people. <br>
+            Also, beings as a tourist place, thanks to its famous bridge built 1700 years <br>
+            The second bridge was built in 1819 and facilitated the passing from one side to another people, thus giving
+            the possibility of trade. <br>
+            Today there are 34 bridges and the best known is the center of the city.
+          </p>
         </div>
       </div>
+    </div>
 
-      <!-- section maya -->
-      <div class="container-fluid" id="maya">
-        <div class="row  text-white p-5 text-center">
-          <div class="col-sm-6">
-            <img src="img/maya.jpg"  width="400" height="400" class=" w-10s animated rollIn" id="maya">
-          </div>
-          <div class="col-sm-6">
-              <br><br><br><br><br><br><br><br>
-            <h1>Mayerlin Gaviria</h1>
-          </div>
-        </div>
-      </div>
+  </div>
 
-      <!-- section juanes -->
-      <div class="container-fluid" id="juanes">
-        <div class="row  text-black p-5 text-center">
-          <div class="col-sm-6">
-            <img src="img/juaneskappa.jpg"  width="400" height="400" class=" w-10s animated rollIn" id="juanes">
-          </div>
-          <div class="col-sm-6">
-              <br><br><br><br><br><br><br><br>
-            <h1>Juanes Sepúlveda</h1>
-          </div>
-        </div>
-      </div>
+  <!-- Validacion de ivanna para mostrar-->
+  <script type="text/javascript">
+    document.getElementById("introIvanna").style.display = "none";
+    function MostrarIvanna() {
+      document.getElementById("introIvanna").style.display = "block";
+    }
+    function OcultarIvanna() {
+      document.getElementById("introIvanna").style.display = "none";
+    }
 
-      <!-- section ivanna -->
-      <div class="container-fluid" id="ivanna">
-        <div class="row  text-white p-5 text-center">
-          <div class="col-sm-6">
-            <img src="img/earth2.png"  width="400" height="400" class=" w-10s animated rollIn">
-          </div>
-          <div class="col-sm-6 ">
-            <br><br><br><br><br><br><br><br>
-            <h1>Ivanna Gutierrez</h1>
-          </div>
-        </div>
-      </div>
+    function Mostrar_OcultarIvanna() {
+      var cajaIva = document.getElementById("introIvanna");
 
-      <!--Chapter introduction-->
-      <div class="container-fluid" id="introIvanna">
-          <div class="row  text-white p-5 text-left">
-            <div class="col-sm-6 ">
-              <font size=10 color=white>Introduction</font>
-            </div>
-            <div class="col-sm-6 ">
-              <font size=10 color=white>Glossary</font>
-                <p style="color:black" font-size="20px" class="p"> 
-                    <br><br>
-                    <font size=7 color=white>Building: (noun)</font> 
-                    <br>
-                    1.
-                    <br>
-                    a structure with a roof and walls, such as a house or factory. <br>
-                    sinónimos:    structure, construction, edifice, erection, pile. <br>
-                    <br>
-                    2.
-                    <br> 
-                    the action or trade of constructing something. <br>
-                    "the building of motorways" <br>
-                    sinónimos:    construction, erection, putting up, raising, establishment, fabrication, production, assembly <br>
-                    
-                    <br><br>
-                    <font size=7 color=white>Largest: (adjective)</font>  <br>
-                    superlative adjective: largest <br>
-                    <br>
-                    1.
-                    <br>
-                    of considerable or relatively great size, extent, or capacity. <br>
-                    "add a large clove of garlic" <br>
-                    sinónimos:    big, great, huge, of considerable size, sizeable, substantial, immense, enormous, colossal, massive, mammoth, vast, cosmic, goodly, prodigious, tremendous, gigantic, giant, monumental, stupendous, gargantuan, elephantine, titanic, mountainous, monstrous. <br>
-                    
-                    <br><br>
-                    <font size=7 color=white>Great: (adjective)</font>
-                    <br>
-                    1.
-                    <br>
-                    of an extent, amount, or intensity considerably above average. <br>
-                    "the article was of great interest" <br>
-                    sinónimos:    considerable, substantial, pronounced, sizeable, significant, appreciable, serious, exceptional, inordinate, extraordinary, special. <br>
-                    
-                    <br><br>
-                    <font size=7 color=white>Often: (adverb)</font>  <br>
-                    frequently; many times. <br>
-                    "he often goes for long walks by himself" <br>
-                    sinónimos:    frequently, many times, many a time, on many/numerous occasions, a lot, in many cases/instances, repeatedly, again and again, time and again, time and time again, time after time, over and over, over and over again, day in, day out, week in, week out, all the time, regularly, recurrently, continually, usually, habitually, commonly, generally, ordinarily, as often as not. <br>
-                    
-                    <br><br>
-                    <font size=10 color=white>Summary</font>  <br> 
-                    <br>
-                    Usually the people that lives in London are from other places, people say it because in this city you can hear more than 250 languages on the street. <br>
-                    when somebody think of london, thinks in of a red bus, the river Thames or their old buildings.</p>
-              </div>
-          </div>
-        </div>
+      if (cajaIva.style.display == "none") {
+        MostrarIvanna();
+      } else {
+        OcultarIvanna();
+      }
+    }
+  </script>
 
-        <!--Chapter one-->
-        <div class="container-fluid" id="">
-            <div class="row  text-white p-5 text-left">
-              <div class="col-sm-6 ">
-                <font size=10 color=white>A Great City</font>
-              </div>
-              <div class="col-sm-6 ">
-                <font size=10 color=white>Glossary</font>
-                  <p style="color:black" class="p"> 
-                      <br><br>
-                      <font size=7 color=white>Square: (noun)</font>
-                      <br>
-                      1. <br>
-                      a plane figure with four equal straight sides and four right angles. <br>
-                      "a grid of ruled squares" <br>
-                      2. <br>
-                      an open, typically four-sided, area surrounded by buildings in a village, town, or city. <br>
-                      <br>
-                      <br>
-                     <font size=7 color=white> South-east:(noun)</font><br>
-                      1. <br>
-                      the direction towards the point of the horizon midway between south and east, or the point on the horizon itself. <br>
-                      2. <br>
-                      the south-eastern part of a country, region, or town. <br>
-                      <br>
-                      <br>
-                      <font size=7 color=white>Summary</font> <br> <br>
-                      London, is one of the most wonderful cities around the world, and the biggest of Europe, with an interesting story under its existence. 
-                </div>
-            </div>
-          </div>
+  <!-- Validacion de jaider para mostrar-->
+  <script type="text/javascript">
+    //ocultar desde un principio
+    document.getElementById("introJaider").style.display = "none";
+    function MostrarJaider() {
+      document.getElementById("introJaider").style.display = "block";
+    }
+    function OcultarJaider() {
+      document.getElementById("introJaider").style.display = "none";
+    }
+
+    function Mostrar_OcultarJaider() {
+      var cajaJai = document.getElementById("introJaider");
+
+      if (cajaJai.style.display == "none") {
+        MostrarJaider();
+      } else {
+        OcultarJaider();
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    //ocultar desde un principio
+    document.getElementById("introMaya").style.display = "none";
+    function MostrarMaya() {
+      document.getElementById("introMaya").style.display = "block";
+    }
+    function OcultarMaya() {
+      document.getElementById("introMaya").style.display = "none";
+    }
+
+    function Mostrar_OcultarMaya() {
+      var cajaMaya = document.getElementById("introMaya");
+
+      if (cajaMaya.style.display == "none") {
+        MostrarMaya();
+      } else {
+        OcultarMaya();
+      }
+    }
+  </script>
 
 
-          <!--Chapter two-->
-        <div class="container-fluid" id="">
-            <div class="row  text-white p-5 text-left">
-              <div class="col-sm-6 ">
-                <font size=10 color=white>The Thames</font>
-              </div>
-              <div class="col-sm-6 ">
-                <font size=7 color=white>Glossary</font> <br> <br>
-                  <p style="color: black" style="font-size: 7"> 
-                      <font size=7 color=white>Through: (preposition & adverb)</font> <br>
-                      1. <br>
-                      moving in one side and out of the other side of (an opening, channel, or location). <br>
-                      "stepping boldly through the doorway" <br>
-                      2. <br>
-                      continuing in time towards completion of (a process or period). <br>
-                      "the goal came midway through the second half". <br>
-                      
-                      
-                      <font size=7 color=white> West: (noun)</font> <br>
-                      1. <br>
-                      the direction towards the point of the horizon where the sun sets at the equinoxes, on the left-hand side of a person facing north, or the part of the horizon lying in this direction. <br>
-                      "the evening sun glowed from the west" <br>
-                      <br>
-                      <br>
-                      <font size=7 color=white>East: (noun) </font>
-                      1. <br>
-                      the direction towards the point of the horizon where the sun rises at the equinoxes, on the right-hand side of a person facing north, or the point on the horizon itself. <br>
-                      "a gale was blowing from the east" <br>
-                      2. <br>
-                      the eastern part of the world or of a specified country, region, or town. <br>
-                      "a factory in the east of the city" <br>
-                      
-                      
-                      <font size=7 color=white>River: (noun)</font> <br>
-                      a large natural stream of water flowing in a channel to the sea, a lake, or another river. <br>
-                      "the River Danube" <br>
-                      <br>
-                      <br>
-                      <font size=7 color=white>Road: (noun)  </font> <br>
-                      1. <br>
-                      a wide way leading from one place to another, especially one with a specially prepared surface which vehicles can use. <br>
-                      "a country road" <br>
-                      <br>
-                      <br>
-                      <font size=7 color=white>Brought:  </font><br>
-                      Past and past participle of bring. <br>
-                      <font size=7 color=white>Round: </font> <br>
-                      1. <br>
-                       having every part of the surface or circumference equidistant from the center <br>
-                      
-                       <font size=7 color=white>Wood:  </font> <br>
-                      Wood is a porous and fibrous structural tissue found in the stems and roots of trees and other woody plants.
-                      <br>
-                      <br>
-                      <font size=7 color=white>Busy: (adjective) </font><br>
-                      1. <br>
-                      having a great deal to do. <br>
-                      "he had been too busy to enjoy himself" <br>
-                      2. <br>
-                      excessively detailed or decorated. <br>
-                      "the lavish set designs are a little too busy" <br>
-                      
-                      
-                      <font size=7 color=white>Bridge: (noun) </font> <br>
-                      1. <br>
-                      A structure carrying a pathway or roadway over a depression or obstacle (such as a river) <br>
-                      
-                      <font size=7 color=white>Stone:  </font> <br>
-                      Any of various units of weight especially; an official British unit equal to 14 pounds (6.3 kilograms)
-                      <br>
-                      <br>
-                      <font size=7 color=white>Stood: </font> <br>
-                      Past and past participle of stand. 
-                      <br>
-                      <br>
-                      <font size=7 color=white>Sold:  </font><br>
-                      Past and past participle of sell.
-                      <br>
-                      <br>
-                      <font size=7 color=white>Tower: (noun) </font> <br>
-                      1. <br>
-                      a tall, narrow building, either free-standing or forming part of a building such as a church or castle.
-                      <br>
-                      <br>
-                      <font size=7 color=white>Across: (preposition & adverb) </font> <br>
-                      1. <br>
-                      from one side to the other of (a place, area, etc.). <br>
-                      "I ran across the street"
-                      <br>
-                      <br>
-                      <font size=7 color=white>South: (noun) </font><br>
-                      1. <br>
-                      the direction towards the point of the horizon 90° clockwise from east, or the point on the horizon itself."the breeze came from the south" <br>
-                      2. <br>
-                      the southern part of the world or of a specified country, region, or town.
-                      <br>
-                      <br>
-                      <font size=7 color=white>Near: (adverb) </font> <br>
-                      1. <br>
-                      at or to a short distance away; nearby. <br>
-                      "a bomb exploded somewhere near" 
-                      <br>
-                      <br>
-                      <font size=7 color=white>Walkways: (noun) </font> <br>
-                      a passage or path for walking along, especially a raised passageway connecting different sections of a building or a wide path in a park or garden.
-                      <br>
-                      <br>
-                      <font size=7 color=white>Helped: (verb) </font><br>
-                      Past tense: helped; past participle: helped <br>
-                      1. <br>
-                      make it easier or possible for (someone) to do something by offering them one's services or resources. <br>
-                      "they helped her with domestic chores" 
-                      <br>
-                      <br>
-                      <font size=7 color=white>Threw:  </font><br>
-                      Past of throw. <br>
-                      <br>
-                      <font size=7 color=white>Summary </font> <br> <br>
-                      Thames is the river crossing from West to East, this river benefits to London and it returns to the capital because in the past this river was used to transport merchandise and people. <br>
-                      Also, beings as a tourist place, thanks to its famous bridge built 1700 years <br>
-                      The second bridge was built in 1819 and facilitated the passing from one side to another people, thus giving the possibility of trade. <br>
-                      Today there are 34 bridges and the best known is the center of the city.</p>
-                </div>
-            </div>
-          </div>
+<script type="text/javascript">
+  //ocultar desde un principio
+  document.getElementById("introJuanes").style.display = "none";
+  function MostrarJuanes() {
+    document.getElementById("introJuanes").style.display = "block";
+  }
+  function OcultarJuanes() {
+    document.getElementById("introJuanes").style.display = "none";
+  }
+
+  function Mostrar_OcultarJuanes() {
+    var cajaJuanes = document.getElementById("introJuanes");
+
+    if (cajaJuanes.style.display == "none") {
+      MostrarJuanes();
+    } else {
+      OcultarJuanes();
+    }
+  }
+</script>
 
 
 
+  <% include partials/footer.html%>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <% include partials/footer.html%>
-
-    <!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/animsition/js/animsition.min.js"></script>
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/bootstrap/js/popper.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/animsition/js/animsition.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/select2/select2.min.js"></script>
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/daterangepicker/moment.min.js"></script>
-    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+  <script src="vendor/select2/select2.min.js"></script>
   <!--===============================================================================================-->
-    <script src="vendor/countdowntime/countdowntime.js"></script>
+  <script src="vendor/daterangepicker/moment.min.js"></script>
+  <script src="vendor/daterangepicker/daterangepicker.js"></script>
   <!--===============================================================================================-->
-    <script src="js/main.js"></script>
+  <script src="vendor/countdowntime/countdowntime.js"></script>
+  <!--===============================================================================================-->
+  <script src="js/main.js"></script>
+
+
 </body>
 
-
-
-
 </html>
-
-
-<!--
-
-Jaider Atehortua Loaiza
-
-Teacher: Martha Gómez
-
-
-
-XI
-Section: 7
-
-
-
-
-
-
-
-
-
-
-
-
-Inem José Félix de Restrepo
-Medellín
-2019
-
-
-
-
-
-Per chapter
-
-1.1 Glossary:
-
-Thought:The content Of cognition, the main thing You are thinking about.
-
-Led: Preside over.
-
-Field: A piece Of Land cleared Of trees and usually enclosed.
-
-Walrus: Either Of tel largo northern marine mammals having ivory tusks and tough hide over thick blubber.
-
-Shouted: talk in a loud voice.
-
-1.2. Summary:
-Chapter one: Ended Dream.
-
-The beatles were considered as they best band around the world, but all they followed their own interest, their fans were always with hope that they will play together again.
-
-One day, all the fans lost that hope when Jhon Lenon died, because Mark Chapman  shotted him, then he died in the hospital and the band has never play together again.
-
-1.3: Activities:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3. General reflection-->
